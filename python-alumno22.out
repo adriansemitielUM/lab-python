@@ -1,0 +1,68 @@
+Ejecutando el notebook con 10000000 elementos
+Time taken by reduction operation: 2.3185536861419678 seconds
+2.31 s ± 4.46 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 49999995000000
+
+Resultado de la suma usando bucle for: 49999995000000
+Tiempo con time usando un bucle for: 2.073517 segundos
+
+Tiempo con %timeit usando un bucle for:
+2.18 s ± 68.9 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+
+Resultado de la suma usando la función sum: 49999995000000
+Tiempo con time usando la función sum: 0.346423 segundos
+
+Tiempo con %timeit usando la función sum:
+298 ms ± 448 µs per loop (mean ± std. dev. of 7 runs, 1 loop each)
+Resultado de la suma usando bucle for (numpy array): 49999995000000
+Tiempo con time usando un bucle for (numpy array): 6.307291 segundos
+
+Tiempo con %timeit usando un bucle for (numpy array):
+6.28 s ± 12 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+
+Resultado de la suma usando numpy.sum: 49999995000000
+Tiempo con time usando numpy.sum: 0.012891 segundos
+
+Tiempo con %timeit usando numpy.sum:
+12.1 ms ± 63.1 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+Resultado de la suma usando sumar_numba: 49999995000000
+Tiempo de la primera ejecución (compilación + ejecución): 3.860255 segundos
+Tiempo de la segunda ejecución (solo ejecución): 0.014729 segundos
+
+Resultado de la suma usando np.sum: 49999995000000
+Tiempo con np.sum: 0.012569 segundos
+Ejecutando el notebook con 100000000 elementos
+Time taken by reduction operation: 23.087280988693237 seconds
+23.1 s ± 11.8 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 4999999950000000
+
+Resultado de la suma usando bucle for: 4999999950000000
+Tiempo con time usando un bucle for: 20.998533 segundos
+
+Tiempo con %timeit usando un bucle for:
+20.9 s ± 92.7 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+
+Resultado de la suma usando la función sum: 4999999950000000
+Tiempo con time usando la función sum: 3.168966 segundos
+
+Tiempo con %timeit usando la función sum:
+3.02 s ± 62.3 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+Resultado de la suma usando bucle for (numpy array): 4999999950000000
+Tiempo con time usando un bucle for (numpy array): 66.037700 segundos
+
+Tiempo con %timeit usando un bucle for (numpy array):
+1min 6s ± 165 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+
+Resultado de la suma usando numpy.sum: 4999999950000000
+Tiempo con time usando numpy.sum: 0.126805 segundos
+
+Tiempo con %timeit usando numpy.sum:
+119 ms ± 1.5 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
+Resultado de la suma usando sumar_numba: 4999999950000000
+Tiempo de la primera ejecución (compilación + ejecución): 8.284320 segundos
+Tiempo de la segunda ejecución (solo ejecución): 0.140731 segundos
+
+Resultado de la suma usando np.sum: 4999999950000000
+Tiempo con np.sum: 0.118223 segundos
